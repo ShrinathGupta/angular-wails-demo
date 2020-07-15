@@ -1,0 +1,18 @@
+{
+ "name": "angular-wails-demo",
+ "description": "Enter your project description",
+ "author": {
+  "name": "angular-wails-demo",
+  "email": ""
+ },
+ "version": "0.1.0",
+ "binaryname": "angular-wails-demo.exe",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npx ng build --single-bundle true --output-hashing none --prod --bundle-styles false",
+  "bridge": "src",
+  "serve": "npx ng serve --poll=2000"
+ },
+ "WailsVersion": ""
+}
